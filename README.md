@@ -1,26 +1,26 @@
-[Grafana](https://grafana.com) [![Circle CI](https://circleci.com/gh/grafana/grafana.svg?style=svg)](https://circleci.com/gh/grafana/grafana) [![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana) [![codecov](https://codecov.io/gh/grafana/grafana/branch/master/graph/badge.svg)](https://codecov.io/gh/grafana/grafana)
+[Grafana](https://gruposomel.com) [![Circle CI](https://circleci.com/gh/grafana/grafana.svg?style=svg)](https://circleci.com/gh/grafana/grafana) [![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana) [![codecov](https://codecov.io/gh/grafana/grafana/branch/master/graph/badge.svg)](https://codecov.io/gh/grafana/grafana)
 ================
-[Website](https://grafana.com) |
+[Website](https://gruposomel.com) |
 [Twitter](https://twitter.com/grafana) |
-[Community & Forum](https://community.grafana.com)
+[Community & Forum](https://community.gruposomel.com)
 
 Grafana is an open source, feature rich metrics dashboard and graph editor for
 Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.
 
-![](http://docs.grafana.org/assets/img/features/dashboard_ex1.png)
+![](http://sensores.gruposomel.com/assets/img/features/dashboard_ex1.png)
 
 ## Installation
-Head to [docs.grafana.org](http://docs.grafana.org/installation/) and [download](https://grafana.com/get)
+Head to [sensores.gruposomel.com](http://sensores.gruposomel.com/installation/) and [download](https://gruposomel.com/get)
 the latest release.
 
-If you have any problems please read the [troubleshooting guide](http://docs.grafana.org/installation/troubleshooting/).
+If you have any problems please read the [troubleshooting guide](http://sensores.gruposomel.com/installation/troubleshooting/).
 
 ## Documentation & Support
-Be sure to read the [getting started guide](http://docs.grafana.org/guides/gettingstarted/) and the other feature guides.
+Be sure to read the [getting started guide](http://sensores.gruposomel.com/guides/gettingstarted/) and the other feature guides.
 
 ## Run from master
 If you want to build a package yourself, or contribute - Here is a guide for how to do that. You can always find
-the latest master builds [here](https://grafana.com/grafana/download)
+the latest master builds [here](https://gruposomel.com/grafana/download)
 
 ### Dependencies
 
@@ -112,7 +112,7 @@ the kickass metrics & devops dashboard we all dream about!
 
 ## Plugin development
 
-Checkout the [Plugin Development Guide](http://docs.grafana.org/plugins/developing/development/) and checkout the [PLUGIN_DEV.md](https://github.com/grafana/grafana/blob/master/PLUGIN_DEV.md) file for changes in Grafana that relate to
+Checkout the [Plugin Development Guide](http://sensores.gruposomel.com/plugins/developing/development/) and checkout the [PLUGIN_DEV.md](https://github.com/grafana/grafana/blob/master/PLUGIN_DEV.md) file for changes in Grafana that relate to
 plugin development.
 
 ## License

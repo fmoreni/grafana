@@ -29,7 +29,7 @@ func TestEmailNotifier(t *testing.T) {
 			Convey("from settings", func() {
 				json := `
 				{
-					"addresses": "ops@grafana.org"
+					"addresses": "ops@sensores.gruposomel.com"
 				}`
 
 				settingsJSON, _ := simplejson.NewJson([]byte(json))
@@ -45,13 +45,13 @@ func TestEmailNotifier(t *testing.T) {
 				So(err, ShouldBeNil)
 				So(emailNotifier.Name, ShouldEqual, "ops")
 				So(emailNotifier.Type, ShouldEqual, "email")
-				So(emailNotifier.Addresses[0], ShouldEqual, "ops@grafana.org")
+				So(emailNotifier.Addresses[0], ShouldEqual, "ops@sensores.gruposomel.com")
 			})
 
 			Convey("from settings with two emails", func() {
 				json := `
 				{
-					"addresses": "ops@grafana.org;dev@grafana.org"
+					"addresses": "ops@sensores.gruposomel.com;dev@sensores.gruposomel.com"
 				}`
 
 				settingsJSON, err := simplejson.NewJson([]byte(json))
@@ -71,8 +71,8 @@ func TestEmailNotifier(t *testing.T) {
 				So(emailNotifier.Type, ShouldEqual, "email")
 				So(len(emailNotifier.Addresses), ShouldEqual, 2)
 
-				So(emailNotifier.Addresses[0], ShouldEqual, "ops@grafana.org")
-				So(emailNotifier.Addresses[1], ShouldEqual, "dev@grafana.org")
+				So(emailNotifier.Addresses[0], ShouldEqual, "ops@sensores.gruposomel.com")
+				So(emailNotifier.Addresses[1], ShouldEqual, "dev@sensores.gruposomel.com")
 			})
 		})
 	})

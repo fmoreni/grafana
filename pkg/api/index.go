@@ -95,7 +95,7 @@ func setIndexViewData(c *m.ReqContext) (*dtos.IndexViewData, error) {
 			Children: []*dtos.NavLink{
 				{Text: "Dashboard", Icon: "gicon gicon-dashboard-new", Url: setting.AppSubUrl + "/dashboard/new"},
 				{Text: "Folder", SubTitle: "Create a new folder to organize your dashboards", Id: "folder", Icon: "gicon gicon-folder-new", Url: setting.AppSubUrl + "/dashboards/folder/new"},
-				{Text: "Import", SubTitle: "Import dashboard from file or Grafana.com", Id: "import", Icon: "gicon gicon-dashboard-import", Url: setting.AppSubUrl + "/dashboard/import"},
+				{Text: "Import", SubTitle: "Import dashboard from file or gruposomel.com", Id: "import", Icon: "gicon gicon-dashboard-import", Url: setting.AppSubUrl + "/dashboard/import"},
 			},
 		})
 	}
@@ -290,8 +290,8 @@ func setIndexViewData(c *m.ReqContext) (*dtos.IndexViewData, error) {
 		HideFromMenu: true,
 		Children: []*dtos.NavLink{
 			{Text: "Keyboard shortcuts", Url: "/shortcuts", Icon: "fa fa-fw fa-keyboard-o", Target: "_self"},
-			{Text: "Community site", Url: "http://community.grafana.com", Icon: "fa fa-fw fa-comment", Target: "_blank"},
-			{Text: "Documentation", Url: "http://docs.grafana.org", Icon: "fa fa-fw fa-file", Target: "_blank"},
+			{Text: "Community site", Url: "http://community.gruposomel.com", Icon: "fa fa-fw fa-comment", Target: "_blank"},
+			{Text: "Documentation", Url: "http://sensores.gruposomel.com", Icon: "fa fa-fw fa-file", Target: "_blank"},
 		},
 	})
 

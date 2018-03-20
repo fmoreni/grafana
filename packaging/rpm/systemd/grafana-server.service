@@ -1,6 +1,6 @@
 [Unit]
 Description=Grafana instance
-Documentation=http://docs.grafana.org
+Documentation=http://sensores.gruposomel.com
 Wants=network-online.target
 After=network-online.target
 After=postgresql.service mariadb.service mysql.service

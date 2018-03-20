@@ -205,7 +205,7 @@ Variable values are always synced to the URL using the syntax `var-<varname>=val
 
 ### Examples
 
-- [Graphite Templated Dashboard](http://play.grafana.org/dashboard/db/graphite-templated-nested)
-- [Elasticsearch Templated Dashboard](http://play.grafana.org/dashboard/db/elasticsearch-templated)
-- [InfluxDB Templated Dashboard](http://play.grafana.org/dashboard/db/influxdb-templated-queries)
+- [Graphite Templated Dashboard](http://play.sensores.gruposomel.com/dashboard/db/graphite-templated-nested)
+- [Elasticsearch Templated Dashboard](http://play.sensores.gruposomel.com/dashboard/db/elasticsearch-templated)
+- [InfluxDB Templated Dashboard](http://play.sensores.gruposomel.com/dashboard/db/influxdb-templated-queries)
 

@@ -33,12 +33,12 @@ func main() {
 		cli.StringFlag{
 			Name:   "repo",
 			Usage:  "url to the plugin repository",
-			Value:  "https://grafana.com/api/plugins",
+			Value:  "https://gruposomel.com/api/plugins",
 			EnvVar: "GF_PLUGIN_REPO",
 		},
 		cli.StringFlag{
 			Name:   "pluginUrl",
-			Usage:  "Full url to the plugin zip file instead of downloading the plugin from grafana.com/api",
+			Usage:  "Full url to the plugin zip file instead of downloading the plugin from gruposomel.com/api",
 			Value:  "",
 			EnvVar: "GF_PLUGIN_URL",
 		},

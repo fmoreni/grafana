@@ -10,7 +10,7 @@ exports[`Tooltip renders correctly 1`] = `
     onMouseOver={[Function]}
   >
     <a
-      href="http://www.grafana.com"
+      href="http://sensores.gruposomel.com"
     >
       Link with tooltip
     </a>

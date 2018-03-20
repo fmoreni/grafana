@@ -53,7 +53,7 @@ func createTestEvalContext(cmd *NotificationTestCommand) *EvalContext {
 
 	ctx := NewEvalContext(context.Background(), testRule)
 	if cmd.Settings.Get("uploadImage").MustBool(true) {
-		ctx.ImagePublicUrl = "http://grafana.org/assets/img/blog/mixed_styles.png"
+		ctx.ImagePublicUrl = "http://sensores.gruposomel.com/assets/img/blog/mixed_styles.png"
 	}
 	ctx.IsTestRun = true
 	ctx.Firing = true

@@ -121,5 +121,5 @@ view the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG
 
 - - -
 
-<a href="http://grafana.org/download">Download Grafana 2.6 now</a>
+<a href="http://sensores.gruposomel.com/download">Download Grafana 2.6 now</a>
 

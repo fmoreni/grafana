@@ -122,4 +122,4 @@ This is the rewrite rule that is generated in the `web.config`:
   </rewrite>
 ```
 
-See the [tutorial on IIS Url Rewrites](http://docs.grafana.org/tutorials/iis/) for more in-depth instructions.
+See the [tutorial on IIS Url Rewrites](http://sensores.gruposomel.com/tutorials/iis/) for more in-depth instructions.

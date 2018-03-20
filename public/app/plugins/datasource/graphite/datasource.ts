@@ -23,7 +23,7 @@ export function GraphiteDatasource(instanceSettings, $q, backendSrv, templateSrv
       links: [
         {
           text: 'Help',
-          url: 'http://docs.grafana.org/features/datasources/graphite/#using-graphite-in-grafana',
+          url: 'http://sensores.gruposomel.com/features/datasources/graphite/#using-graphite-in-grafana',
         },
       ],
     };

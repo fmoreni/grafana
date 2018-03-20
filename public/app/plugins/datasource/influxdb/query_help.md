@@ -23,6 +23,6 @@
 
 #### Documentation links:
 
-[Grafana's InfluxDB Documentation](http://docs.grafana.org/features/datasources/influxdb)
+[Grafana's InfluxDB Documentation](http://sensores.gruposomel.com/features/datasources/influxdb)
 
 [Official InfluxDB Documentation](https://docs.influxdata.com/influxdb)

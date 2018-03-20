@@ -64,4 +64,4 @@ If you want to create a link to the playlist with kiosk mode enabled:
 1. Copy the Start Url (by right clicking on the Play button and choosing Copy link address).
 2. Add the `?kiosk` parameter to the url.
 
-For example, to open the first playlist on the Grafana Play site in kiosk mode: [http://play.grafana.org/playlists/play/1?kiosk](http://play.grafana.org/playlists/play/1?kiosk)
+For example, to open the first playlist on the Grafana Play site in kiosk mode: [http://play.sensores.gruposomel.com/playlists/play/1?kiosk](http://play.sensores.gruposomel.com/playlists/play/1?kiosk)

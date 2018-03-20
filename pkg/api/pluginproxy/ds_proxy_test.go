@@ -107,7 +107,7 @@ func TestDSRouteRule(t *testing.T) {
 
 			proxy := NewDataSourceProxy(ds, plugin, ctx, "/render")
 
-			requestUrl, _ := url.Parse("http://grafana.com/sub")
+			requestUrl, _ := url.Parse("http://gruposomel.com/sub")
 			req := http.Request{URL: requestUrl}
 
 			proxy.getDirector()(&req)
@@ -132,7 +132,7 @@ func TestDSRouteRule(t *testing.T) {
 			ctx := &m.ReqContext{}
 			proxy := NewDataSourceProxy(ds, plugin, ctx, "")
 
-			requestUrl, _ := url.Parse("http://grafana.com/sub")
+			requestUrl, _ := url.Parse("http://gruposomel.com/sub")
 			req := http.Request{URL: requestUrl}
 
 			proxy.getDirector()(&req)
@@ -162,7 +162,7 @@ func TestDSRouteRule(t *testing.T) {
 			ctx := &m.ReqContext{}
 			proxy := NewDataSourceProxy(ds, plugin, ctx, "")
 
-			requestUrl, _ := url.Parse("http://grafana.com/sub")
+			requestUrl, _ := url.Parse("http://gruposomel.com/sub")
 			req := http.Request{URL: requestUrl, Header: make(http.Header)}
 			cookies := "grafana_user=admin; grafana_remember=99; grafana_sess=11; JSESSION_ID=test"
 			req.Header.Set("Cookie", cookies)
@@ -188,7 +188,7 @@ func TestDSRouteRule(t *testing.T) {
 			ctx := &m.ReqContext{}
 			proxy := NewDataSourceProxy(ds, plugin, ctx, "")
 
-			requestUrl, _ := url.Parse("http://grafana.com/sub")
+			requestUrl, _ := url.Parse("http://gruposomel.com/sub")
 			req := http.Request{URL: requestUrl, Header: make(http.Header)}
 			cookies := "grafana_user=admin; grafana_remember=99; grafana_sess=11; JSESSION_ID=test"
 			req.Header.Set("Cookie", cookies)

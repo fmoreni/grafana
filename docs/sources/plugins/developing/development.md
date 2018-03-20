@@ -10,11 +10,11 @@ weight = 1
 
 # Developer Guide
 
-You can extend Grafana by writing your own plugins and then share then with other users in [our plugin repository](https://grafana.com/plugins).
+You can extend Grafana by writing your own plugins and then share then with other users in [our plugin repository](https://gruposomel.com/plugins).
 
 ## Short version
 
-1. [Setup grafana](http://docs.grafana.org/project/building_from_source/)
+1. [Setup grafana](http://sensores.gruposomel.com/project/building_from_source/)
 2. Clone an example plugin into ```/var/lib/grafana/plugins```  or `data/plugins` (relative to grafana git repo if you're running development version from source dir)
 3. Use one of our example plugins as starting point
 
@@ -27,8 +27,8 @@ Example plugins
 
 There are two blog posts about authoring a plugin that might also be of interest to any plugin authors.
 
-- [Timing is Everything. Writing the Clock Panel Plugin for Grafana](https://grafana.com/blog/2016/04/08/timing-is-everything.-writing-the-clock-panel-plugin-for-grafana-3.0/)
-- [Timing is Everything. Editor Mode in Grafana for the Clock Panel Plugin](https://grafana.com/blog/2016/04/15/timing-is-everything.-editor-mode-in-grafana-3.0-for-the-clock-panel-plugin/).
+- [Timing is Everything. Writing the Clock Panel Plugin for Grafana](https://gruposomel.com/blog/2016/04/08/timing-is-everything.-writing-the-clock-panel-plugin-for-grafana-3.0/)
+- [Timing is Everything. Editor Mode in Grafana for the Clock Panel Plugin](https://gruposomel.com/blog/2016/04/15/timing-is-everything.-editor-mode-in-grafana-3.0-for-the-clock-panel-plugin/).
 
 ## What languages?
 
@@ -94,7 +94,7 @@ export {
 
 There are three ways that you can start developing a Grafana plugin.
 
-1. Setup a Grafana development environment. [(described here)](http://docs.grafana.org/project/building_from_source/) and place your plugin in the ```data/plugins``` folder.
+1. Setup a Grafana development environment. [(described here)](http://sensores.gruposomel.com/project/building_from_source/) and place your plugin in the ```data/plugins``` folder.
 2. Install Grafana and place your plugin in the plugins directory which is set in your [config file](/installation/configuration). By default this is `/var/lib/grafana/plugins` on Linux systems.
 3. Place your plugin directory anywhere you like and specify it grafana.ini.
 

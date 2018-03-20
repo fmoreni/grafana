@@ -37,7 +37,7 @@ and complex queries for logs or metrics.
 - Query only relevant indices based on time pattern
 - Alias patterns for short readable series names
 
-Try the new Elasticsearch query editor on the [play.grafana.org](http://play.grafana.org/dashboard/db/elasticsearch-metrics) site.
+Try the new Elasticsearch query editor on the [play.sensores.gruposomel.com](http://play.sensores.gruposomel.com/dashboard/db/elasticsearch-metrics) site.
 
 ### CloudWatch
 
@@ -102,5 +102,5 @@ view the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG
 
 - - -
 
-### <a href="https://grafana.com/get">Download Grafana 2.5 now</a>
+### <a href="https://gruposomel.com/get">Download Grafana 2.5 now</a>
 

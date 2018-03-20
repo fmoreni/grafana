@@ -11,4 +11,4 @@ Grafana ships with a built-in MySQL data source plugin that allow you to query a
 
 Read more about it here:
 
-[http://docs.grafana.org/features/datasources/mysql/](http://docs.grafana.org/features/datasources/mysql/)
+[http://sensores.gruposomel.com/features/datasources/mysql/](http://sensores.gruposomel.com/features/datasources/mysql/)

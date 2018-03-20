@@ -4,4 +4,4 @@ The Graph is the main graph panel and is **included** with Grafana. It provides 
 
 Read more about it here:
 
-[http://docs.grafana.org/reference/graph/](http://docs.grafana.org/reference/graph/)
+[http://sensores.gruposomel.com/reference/graph/](http://sensores.gruposomel.com/reference/graph/)

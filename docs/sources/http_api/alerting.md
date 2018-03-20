@@ -62,7 +62,7 @@ Content-Type: application/json
       }
     "newStateDate": "2016-12-25",
     "executionError": "",
-    "url": "http://grafana.com/dashboard/db/sensors"
+    "url": "http://gruposomel.com/dashboard/db/sensors"
   }
 ]
 ```
@@ -94,7 +94,7 @@ Content-Type: application/json
   "state": "alerting",
   "newStateDate": "2016-12-25",
   "executionError": "",
-  "url": "http://grafana.com/dashboard/db/sensors"
+  "url": "http://gruposomel.com/dashboard/db/sensors"
 }
 ```
 
@@ -213,7 +213,7 @@ Authorization: Bearer eyJrIjoiT0tTcG1pUlY2RnVKZTFVaDFsNFZXdE9ZWmNrMkZYbk
   "type":  "email", //Required
   "isDefault": false,
   "settings": {
-    "addresses": "carl@grafana.com;dev@grafana.com"
+    "addresses": "carl@gruposomel.com;dev@gruposomel.com"
   }
 }
 ```
@@ -228,7 +228,7 @@ Content-Type: application/json
   "name": "new alert notification",
   "type": "email",
   "isDefault": false,
-  "settings": { addresses: "carl@grafana.com;dev@grafana.com"} }
+  "settings": { addresses: "carl@gruposomel.com;dev@gruposomel.com"} }
   "created": "2017-01-01 12:34",
   "updated": "2017-01-01 12:34"
 }
@@ -252,7 +252,7 @@ Authorization: Bearer eyJrIjoiT0tTcG1pUlY2RnVKZTFVaDFsNFZXdE9ZWmNrMkZYbk
   "type":  "email", //Required
   "isDefault": false,
   "settings": {
-    "addresses: "carl@grafana.com;dev@grafana.com"
+    "addresses: "carl@gruposomel.com;dev@gruposomel.com"
   }
 }
 ```
@@ -267,7 +267,7 @@ Content-Type: application/json
   "name": "new alert notification",
   "type": "email",
   "isDefault": false,
-  "settings": { addresses: "carl@grafana.com;dev@grafana.com"} }
+  "settings": { addresses: "carl@gruposomel.com;dev@gruposomel.com"} }
   "created": "2017-01-01 12:34",
   "updated": "2017-01-01 12:34"
 }

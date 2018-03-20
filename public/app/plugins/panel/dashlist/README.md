@@ -6,4 +6,4 @@ The dashboard list panel allows you to display dynamic links to other dashboards
 
 Read more about it here:
 
-[http://docs.grafana.org/reference/dashlist/](http://docs.grafana.org/reference/dashlist/)
+[http://sensores.gruposomel.com/reference/dashlist/](http://sensores.gruposomel.com/reference/dashlist/)

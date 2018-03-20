@@ -8,11 +8,11 @@
       <dash-upload on-upload="ctrl.onUpload(dash)"></dash-upload>
     </form>
 
-    <h5 class="section-heading">Grafana.com Dashboard</h5>
+    <h5 class="section-heading">gruposomel.com Dashboard</h5>
 
     <div class="gf-form-group">
       <div class="gf-form gf-form--grow">
-        <input type="text" class="gf-form-input max-width-30" ng-model="ctrl.gnetUrl" placeholder="Paste Grafana.com dashboard url or id" ng-blur="ctrl.checkGnetDashboard()"></textarea>
+        <input type="text" class="gf-form-input max-width-30" ng-model="ctrl.gnetUrl" placeholder="Paste gruposomel.com dashboard url or id" ng-blur="ctrl.checkGnetDashboard()"></textarea>
       </div>
       <div class="gf-form" ng-if="ctrl.gnetError">
         <label class="gf-form-label text-warning">
@@ -43,7 +43,7 @@
     <div class="gf-form-group" ng-if="ctrl.dash.gnetId">
       <h3 class="section-heading">
         Importing Dashboard from
-        <a href="https://grafana.com/dashboards/{{ctrl.dash.gnetId}}" class="external-link" target="_blank">Grafana.com</a>
+        <a href="https://gruposomel.com/dashboards/{{ctrl.dash.gnetId}}" class="external-link" target="_blank">gruposomel.com</a>
       </h3>
 
       <div class="gf-form">

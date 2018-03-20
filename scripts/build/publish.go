@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-var apiUrl = flag.String("apiUrl", "https://grafana.com/api", "api url")
+var apiUrl = flag.String("apiUrl", "https://gruposomel.com/api", "api url")
 var apiKey = flag.String("apiKey", "", "api key")
 var version = ""
 var versionRe = regexp.MustCompile(`grafana-(.*)\.(linux|windows)`)

@@ -111,7 +111,7 @@ Why two ways? The first syntax is easier to read and write but does not allow yo
 the second syntax in expressions like  `my.server[[serverNumber]].count`.
 
 Example:
-[Graphite Templated Dashboard](http://play.grafana.org/dashboard/db/graphite-templated-nested)
+[Graphite Templated Dashboard](http://play.sensores.gruposomel.com/dashboard/db/graphite-templated-nested)
 
 ## Annotations
 

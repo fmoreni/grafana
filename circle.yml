@@ -49,7 +49,7 @@ jobs:
           name: sha-sum packages
           command: 'go run build.go sha-dist'
       - run:
-          name: Build Grafana.com publisher
+          name: Build gruposomel.com publisher
           command: 'go build -o scripts/publish scripts/build/publish.go'
       - persist_to_workspace:
           root: .
@@ -77,7 +77,7 @@ jobs:
           name: Trigger Docker build
           command: './scripts/trigger_docker_build.sh ${TRIGGER_GRAFANA_PACKER_CIRCLECI_TOKEN}'
       - run:
-          name: Publish to Grafana.com
+          name: Publish to gruposomel.com
           command: './scripts/publish -apiKey ${GRAFANA_COM_API_KEY}'
 
   deploy-release:

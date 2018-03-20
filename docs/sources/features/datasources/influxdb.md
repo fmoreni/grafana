@@ -153,7 +153,7 @@ Why two ways? The first syntax is easier to read and write but does not allow yo
 options are enabled, Grafana converts the labels from plain text to a regex compatible string. Which means you have to use `=~` instead of `=`.
 
 Example Dashboard:
-[InfluxDB Templated Dashboard](http://play.grafana.org/dashboard/db/influxdb-templated-queries)
+[InfluxDB Templated Dashboard](http://play.sensores.gruposomel.com/dashboard/db/influxdb-templated-queries)
 
 ### Ad hoc filters variable
 

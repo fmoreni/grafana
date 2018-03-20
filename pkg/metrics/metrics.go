@@ -351,7 +351,7 @@ func sendUsageStats() {
 		return
 	}
 
-	metricsLogger.Debug("Sending anonymous usage stats to stats.grafana.org")
+	metricsLogger.Debug("Sending anonymous usage stats to stats.sensores.gruposomel.com")
 
 	version := strings.Replace(setting.BuildVersion, ".", "_", -1)
 
@@ -404,5 +404,5 @@ func sendUsageStats() {
 	data := bytes.NewBuffer(out)
 
 	client := http.Client{Timeout: time.Duration(5 * time.Second)}
-	go client.Post("https://stats.grafana.org/grafana-usage-report", "application/json", data)
+	go client.Post("https://stats.sensores.gruposomel.com/grafana-usage-report", "application/json", data)
 }

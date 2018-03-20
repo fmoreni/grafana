@@ -606,7 +606,7 @@ func NewConfigContext(args *CommandLineArgs) error {
 	// check old key  name
 	GrafanaComUrl = Cfg.Section("grafana_net").Key("url").MustString("")
 	if GrafanaComUrl == "" {
-		GrafanaComUrl = Cfg.Section("grafana_com").Key("url").MustString("https://grafana.com")
+		GrafanaComUrl = Cfg.Section("grafana_com").Key("url").MustString("https://gruposomel.com")
 	}
 
 	imageUploadingSection := Cfg.Section("external_image_storage")

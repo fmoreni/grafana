@@ -26,7 +26,7 @@ Download and install the URL Rewrite module for IIS: https://www.iis.net/downloa
 
 ## Grafana Config
 
-The Grafana config can be set by creating a file named `custom.ini` in the `conf` subdirectory of your Grafana installation. See the [installation instructions](http://docs.grafana.org/installation/windows/#configure) for more details.
+The Grafana config can be set by creating a file named `custom.ini` in the `conf` subdirectory of your Grafana installation. See the [installation instructions](http://sensores.gruposomel.com/installation/windows/#configure) for more details.
 
 Given that the subpath should be `grafana` and the parent site is `localhost:8080` then add this to the `custom.ini` config file:
 

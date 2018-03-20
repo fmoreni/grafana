@@ -5,13 +5,13 @@ docs are built using [Hugo](http://gohugo.io/) - a static site generator.
 
 **Prepare the Docker Image**:
 
-Git clone `grafana/grafana.org` repo. Run these commands in the root of that repo. **Note** that you may require ``sudo``
+Git clone `grafana/sensores.gruposomel.com` repo. Run these commands in the root of that repo. **Note** that you may require ``sudo``
 when running ``make docs-build`` depending on how your system's docker
 service is configured):
 
 ```
-git clone https://github.com/grafana/grafana.org
-cd grafana.org
+git clone https://github.com/grafana/sensores.gruposomel.com
+cd sensores.gruposomel.com
 make docs-build
 ```
 
@@ -34,7 +34,7 @@ Switch your working directory to the directory this file
 cd grafana/docs
 ```
 
-An AWS config file is required to build the docs Docker image and to publish the site to AWS. If you are building locally only and do not have any AWS credentials for docs.grafana.org then create an empty file named `awsconfig` in the current directory.
+An AWS config file is required to build the docs Docker image and to publish the site to AWS. If you are building locally only and do not have any AWS credentials for sensores.gruposomel.com then create an empty file named `awsconfig` in the current directory.
 
 ```
 touch awsconfig
@@ -54,9 +54,9 @@ Open [localhost:3004](http://localhost:3004) to view the docs.
 
 ### Images & Content
 
-All markdown files are located in this repo (main grafana repo). But all images are added to the https://github.com/grafana/grafana.org repo. So the process of adding images is a bit complicated. 
+All markdown files are located in this repo (main grafana repo). But all images are added to the https://github.com/grafana/sensores.gruposomel.com repo. So the process of adding images is a bit complicated. 
 
-First you need create a feature (PR) branch of https://github.com/grafana/grafana.org so you can make change. Then add the image to the `/static/img/docs` directory. Then make a commit that adds the image. 
+First you need create a feature (PR) branch of https://github.com/grafana/sensores.gruposomel.com so you can make change. Then add the image to the `/static/img/docs` directory. Then make a commit that adds the image. 
 
 Then run:
 ```

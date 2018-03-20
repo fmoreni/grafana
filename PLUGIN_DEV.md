@@ -8,7 +8,7 @@ upgrading Grafana please check here before creating an issue.
 
 - [Datasource plugin written in typescript](https://github.com/grafana/typescript-template-datasource)
 - [Simple json dataource plugin](https://github.com/grafana/simple-json-datasource)
-- [Plugin development guide](http://docs.grafana.org/plugins/developing/development/)
+- [Plugin development guide](http://sensores.gruposomel.com/plugins/developing/development/)
 
 ## Changes in v4.6
 

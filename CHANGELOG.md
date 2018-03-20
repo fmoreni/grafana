@@ -101,7 +101,7 @@ Grafana v5.0 is going to be the biggest and most foundational release Grafana ha
 
 ## Breaking changes
 
-* **[dashboard.json]** have been replaced with [dashboard provisioning](http://docs.grafana.org/administration/provisioning/).
+* **[dashboard.json]** have been replaced with [dashboard provisioning](http://sensores.gruposomel.com/administration/provisioning/).
 Config files for provisioning datasources as configuration have changed from `/conf/datasources` to `/conf/provisioning/datasources`.
 From `/etc/grafana/datasources` to `/etc/grafana/provisioning/datasources` when installed with deb/rpm packages.
 
@@ -1132,7 +1132,7 @@ Grunt & Watch tasks:
 
 **Important Note**
 
-Grafana 2.x is fundamentally different from 1.x; it now ships with an integrated backend server. Please read the [Documentation](http://docs.grafana.org) for more detailed about this SIGNIFCANT change to Grafana
+Grafana 2.x is fundamentally different from 1.x; it now ships with an integrated backend server. Please read the [Documentation](http://sensores.gruposomel.com) for more detailed about this SIGNIFCANT change to Grafana
 
 **New features**
 - [Issue #1623](https://github.com/grafana/grafana/issues/1623). Share Dashboard: Dashboard snapshot sharing (dash and data snapshot), save to local or save to public snapshot dashboard snapshots.raintank.io site
@@ -1255,7 +1255,7 @@ Grafana 2.x is fundamentally different from 1.x; it now ships with an integrated
 
 # 1.8.0 (2014-09-22)
 
-Read this [blog post](https://grafana.com/blog/2014/09/11/grafana-1.8.0-rc1-released) for an overview of all improvements.
+Read this [blog post](https://gruposomel.com/blog/2014/09/11/grafana-1.8.0-rc1-released) for an overview of all improvements.
 
 **Fixes**
 - [Issue #802](https://github.com/grafana/grafana/issues/802). Annotations: Fix when using InfluxDB datasource

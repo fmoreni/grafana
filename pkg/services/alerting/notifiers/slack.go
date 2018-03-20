@@ -153,7 +153,7 @@ func (this *SlackNotifier) Notify(evalContext *alerting.EvalContext) error {
 				"fields":      fields,
 				"image_url":   image_url,
 				"footer":      "Grafana v" + setting.BuildVersion,
-				"footer_icon": "https://grafana.com/assets/img/fav32.png",
+				"footer_icon": "https://gruposomel.com/assets/img/fav32.png",
 				"ts":          time.Now().Unix(),
 			},
 		},

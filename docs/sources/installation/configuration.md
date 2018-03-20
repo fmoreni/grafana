@@ -694,7 +694,7 @@ How long sessions lasts in seconds. Defaults to `86400` (24 hours).
 ### reporting_enabled
 
 When enabled Grafana will send anonymous usage statistics to
-`stats.grafana.org`. No IP addresses are being tracked, only simple counters to
+`stats.sensores.gruposomel.com`. No IP addresses are being tracked, only simple counters to
 track running instances, versions, dashboard & error counts. It is very helpful
 to us, so please leave this enabled. Counters are sent every 24 hours. Default
 value is `true`.

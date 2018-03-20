@@ -18,7 +18,7 @@ class GettingStartedPanelCtrl extends PanelCtrl {
     this.steps.push({
       title: 'Install Grafana',
       icon: 'icon-gf icon-gf-check',
-      href: 'http://docs.grafana.org/',
+      href: 'http://sensores.gruposomel.com/',
       target: '_blank',
       note: 'Review the installation docs',
       check: () => $q.when(true),
@@ -66,7 +66,7 @@ class GettingStartedPanelCtrl extends PanelCtrl {
       title: 'Install apps & plugins',
       cta: 'Explore plugin repository',
       icon: 'icon-gf icon-gf-apps',
-      href: 'https://grafana.com/plugins?utm_source=grafana_getting_started',
+      href: 'https://gruposomel.com/plugins?utm_source=grafana_getting_started',
       check: () => {
         return this.backendSrv.get('/api/plugins', { embedded: 0, core: 0 }).then(plugins => {
           return plugins.length > 0;

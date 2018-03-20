@@ -7,7 +7,7 @@ describe('Tooltip', () => {
     const tree = renderer
       .create(
         <Tooltip className="test-class" placement="auto" content="Tooltip text">
-          <a href="http://www.grafana.com">Link with tooltip</a>
+          <a href="http://sensores.gruposomel.com">Link with tooltip</a>
         </Tooltip>
       )
       .toJSON();
